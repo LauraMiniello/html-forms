@@ -9,11 +9,10 @@ function calculateSquareForInput () {
     document.getElementById ('square-result').innerText=squarenumber;
 }
 
-function alertChange () {
+function alertChange ()
     var inputEl = document.getElementById("execrise-input");
     if (inputEl.value.lenght > 4) {
         window.alert ("ok");
-    } else {
+    } else 
       inputEl.value = "";
       window.alert ("name must be at least 4 char long");
-}
